@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-    <h1 className="">React Day 1</h1>
+    <h1 className="mb-3">React Day 1</h1>
     <div className = "d-flex flex-wrap gap-4 me-2 justify-content-center align-items-center mb-3">
       <Buttons name="Cliccami"/>
       <Buttons name="Cliccami2"/>
@@ -16,11 +16,11 @@ function App() {
       <Buttons name="Cliccami5"/>
     </div>
     <div className="d-flex flex-wrap gap-4 justify-content-center align-items-center">  
-      <Images className="" src="https://placecats.com/200/200" alt="immagineGatto"/>
-      <Images className="" src="https://placecats.com/200/200" alt="immagineGatto"/>
-      <Images className="" src="https://placecats.com/200/200" alt="immagineGatto"/>
-      <Images className="" src="https://placecats.com/200/200" alt="immagineGatto"/>
-      <Images className="" src="https://placecats.com/200/200" alt="immagineGatto"/>
+      <Images className="" src="https://placecats.com/300/300" alt="gatto1"/>
+      <Images className="" src="https://placecats.com/300/301" alt="gatto2"/>
+      <Images className="" src="https://placecats.com/300/302" alt="gatto3"/>
+      <Images className="" src="https://placecats.com/300/303" alt="gatto4"/>
+      <Images className="" src="https://placecats.com/300/305" alt="gatto5"/>
     </div>
     </>
   );
